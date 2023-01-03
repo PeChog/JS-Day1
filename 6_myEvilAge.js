@@ -1,5 +1,5 @@
 const myAge = (age) => {
-  parseInt(age);
+  age = parseInt(age);
   if (age >= 18) {
     return "Majeur";
   } else {
