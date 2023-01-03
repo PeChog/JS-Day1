@@ -1,10 +1,9 @@
 const removeTail = (array) => {
-  if (array === []) {
-    null;
-  } else {
-    array.pop();
-  }
+  array.pop();
+
   return array;
 };
 
-console.log(removeTail([]));
+module.exports = removeTail;
+
+console.log(removeTail([0, 1]));
