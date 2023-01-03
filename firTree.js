@@ -1,11 +1,12 @@
 const tree = (size) => {
+  newSize = 0;
   for (let i = 1; i <= size; i++) {
-    size = size + "*\n";
+    newSize = newSize + "\n";
     for (let j = 0; j < i; j++) {
-      size = size + "*";
+      newSize = newSize + " " + "*";
     }
   }
-  return size;
+  return newSize;
 };
 
-console.log(tree(3));
+console.log(tree(5));

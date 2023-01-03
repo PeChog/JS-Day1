@@ -1,5 +1,5 @@
 const evilGetNbr = (number) => {
-  parseInt(number);
+  number = parseInt(number);
   if (number > 0) {
     return "+";
   } else if (number === 0) {
@@ -10,4 +10,4 @@ const evilGetNbr = (number) => {
 };
 
 module.exports = evilGetNbr;
-console.log(evilGetNbr("-14"));
+console.log(evilGetNbr("0"));
