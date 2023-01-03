@@ -1,6 +1,5 @@
 const removeTail = (array) => {
   array.pop();
-
   return array;
 };
 
