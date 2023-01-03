@@ -1,12 +1,14 @@
-const tree = (size) => {
-  newSize = 0;
-  for (let i = 1; i <= size; i++) {
-    newSize = newSize + "\n";
-    for (let j = 0; j < i; j++) {
-      newSize = newSize + " " + "*";
+const tree = (heigth) => {
+  for (let i = 1; i <= heigth; i++) {
+    let star = "";
+    for (let k = 1; k <= heigth - i; k++) {
+      star = star + " ";
     }
+    for (let j = 0; j < i; j++) {
+      star = star + " *";
+    }
+    console.log(star);
   }
-  return newSize;
 };
 
-console.log(tree(5));
+console.log(tree(4));
