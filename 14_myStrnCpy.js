@@ -4,10 +4,10 @@ const strCpy = (str, n) => {
   do {
     newStr = newStr + str[i];
     i++;
-  } while (newStr.length <= n && i < str.length);
+  } while (newStr.length <= n - 1 && i < str.length);
   return newStr;
 };
 
 module.exports = strCpy;
 
-console.log(strCpy("Hello world", 60));
+console.log(strCpy("Hello world", 4));
