@@ -6,12 +6,7 @@ const sum = (array) => {
   return result;
 };
 
-// const sum = (array) => {
-//   let newArray = array.map((element, index, elements) => {
-//     elements[index];
-//   });
-//   return newArray;
-// };
+const sum = (array) => {};
 
 module.exports = sum;
 console.log(sum([1, 2, 3, 4, 5]));
