@@ -1,6 +1,7 @@
 const removeN = (array, index) => {
-  return array.splice(index, index + 1);
+  array.splice(index, 1);
+  return array;
 };
 
 module.exports = removeN;
-console.log(removeN(["hello", "world"], 1));
+console.log(removeN(["hello", "love", "world"], 1));
