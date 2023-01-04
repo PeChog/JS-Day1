@@ -6,7 +6,7 @@ const sum = (array) => {
   return result;
 };
 
-const sum = (array) => {};
+// const sum = (array) => {};
 
 module.exports = sum;
 console.log(sum([1, 2, 3, 4, 5]));
