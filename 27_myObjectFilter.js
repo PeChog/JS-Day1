@@ -1,6 +1,6 @@
 const objectFilter = (array) => {
   let person = array
-    .filter((element) => element.age > 18)
+    .filter((element) => element.age >= 18)
     .map((e) => `${e.surname} ${e.name}`);
   return person;
 };
